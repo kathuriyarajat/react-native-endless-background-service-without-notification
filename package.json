@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-endless-background-service-without-notification.git",
-    "baseUrl": "https://github.com/github_account/react-native-endless-background-service-without-notification"
+    "url": "https://github.com/kathuriyarajat/react-native-endless-background-service-without-notification.git",
+    "baseUrl": "https://github.com/kathuriyarajat/react-native-endless-background-service-without-notification"
   },
   "keywords": [
     "react-native"

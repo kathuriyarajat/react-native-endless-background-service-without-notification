@@ -36,7 +36,7 @@ AppRegistry.registerComponent(appName, () => App);
 
 # AndroidManifest.xml
 
-In your AndroidManifest.xml file add the below code in <application> tag -
+In your AndroidManifest.xml file add the below code in application tag -
 ```javascript
 
         <service
@@ -62,13 +62,13 @@ In your AndroidManifest.xml file add the below code in <application> tag -
 
 Additionally add below permissions in AndroidManifest.xml - 
 ```javascript
-<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 ```
 
 
 # Start Service
-To start our service just execute the below code. Below function takes integer argument which is timeInSeconds (the time after which services starts again even if the app is closed).
+To start our service just execute the below code. Below function takes integer argument which is timeInSeconds (the time after which service starts again even if the app is closed).
 place this code anywhere where you want to start your task.
 ```javascript
 EndlessService.startService(60 * 60 * 2); // starts service after every 2 hours.
