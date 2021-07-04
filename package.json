@@ -1,7 +1,7 @@
 {
   "name": "react-native-endless-background-service-without-notification",
   "title": "React Native Endless Background Service Without Notification",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An endless background service",
   "main": "index.js",
   "files": [
