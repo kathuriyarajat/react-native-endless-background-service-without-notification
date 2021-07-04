@@ -25,8 +25,6 @@ const BackgroundTask = async () => {
       // Be sure to call stopService at the end.
       EndlessService.stopService();
 
-    });
-
   };
 AppRegistry.registerHeadlessTask('EBSWN', () => BackgroundTask);
 AppRegistry.registerComponent(appName, () => App);
