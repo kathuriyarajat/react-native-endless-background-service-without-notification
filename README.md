@@ -71,3 +71,10 @@ place this code anywhere where you want to start your task.
 ```javascript
 EndlessService.startService(60 * 60 * 2); // starts service after every 2 hours.
 ```
+
+If you want to start service everyday at a particular time , like whatsapp takes back up everyday at 2 AM then execute the below code. Below function takes 2 integer arguments which is hour and minute (the time at which service starts everyday even if the app is closed).
+Time range is 0 <= hour <= 23  ,  0 <= minute <= 59 
+
+```javascript
+EndlessService.startServiceOnFixedTime(21,32); // starts service everyday at 9:32 PM
+```
